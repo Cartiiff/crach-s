@@ -119,12 +119,11 @@ font-style: italic;
 section{
   display: inline-block;
   margin-top: 80px;
-  border: 1px solid #ff5757;
+  /* border: 1px solid #ff5757; */
   margin-left: 5%;
   margin-right: 5%;
   padding: 5%;
   text-align: center;
-  width: 90%;
   border-radius: 15px;
 }
 
