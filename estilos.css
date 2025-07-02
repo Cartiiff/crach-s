@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Barriecito&family=Barrio&family=Libertinus+Mono&family=Lobster&family=Meddon&family=Open+Sans:ital,wdth,wght@1,75,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Cores e estilo responsivo */
+header {
+  background-color: #09440c; /* Verde escuro */
+  color: white;
+  padding: 1rem;
+  text-align: left;
+}
+
+.navbar{
+display: flex;
+height: 100px;
+background:#4b8670;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+}
+
+.Logo{
+flex: 20%;
+margin-left: 10%;
+text-align: left;
+
+}
+
+.Logo h1{
+font-family: "Barrio", system-ui;
+color: #ffeb1f;
+font-size: 34px;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color:#ffeb1f;
+    text-decoration: none;
+    color:size 5px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color:#ffffff;
+    border-top: 4px solid;
+}
+
+#Cadastro{
+    background: #ffeb1f;
+    padding: 10px 25px;
+    color:#ffffff;
+    border-radius: 6px;
+    margin-right: 15%;
+}
+#Cadastro:hover{
+    border: none;
+    background: #4b8670;
+}
+.Introdução{
+  display: flex;
+  flex-flow: row wrap  ;
+   background: #ffffff;
+ height: 600px;
+ justify-content: center ;
+ align-items: center;
+}
+
+.Interação{
+ flex: 40%; 
+ margin-left: 10%;
+}
+
+.Interação h2{
+  font-weight: 900;
+  font-size: 20px;
+  color: #4b8670;
+  margin: 0;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.Interação p{
+  color: #4b8670;
+  text-align: left;
+font-size: 15px;
+font-family: "Roboto", sans-serif;
+font-style: italic;
+}
+.contact-btn{
+  display: inline-block;
+  background: #ffeb1f;
+  padding: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.contact-btn:hover{
+  background: #ffffff;
+  color: #ffeb1f;
+}
+.Imagem{
+  margin-right: 10%;
+  flex: 40%;
+  /* border: 1px solid; color: #ffeb1f; */
+  text-align: center;
+}
+
+section{
+  display: inline-block;
+  margin-top: 80px;
+  /* border: 1px solid #ff5757; */
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+section h2{
+ width: 100%;
+ font-size:50px;
+ margin:0;
+ font-family: "Barrio", system-ui;
+ font-weight: bold;
+  color: #ffeb1f;
+}
+
+.Cravhás{
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.card{
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  border: 1px solid #ff5757;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card:hover{
+  background-color: #ff5757;
+  color: rgb(24, 20, 20);
+  padding: 40px;
+}
+
+.card:hover img{
+  display: none;
+}
+
+.card:hover .card-content{
+  display: none;
+}
+
+.card:hover .texto-oculto{
+  display: block;
+}
+.texto-oculto{
+  display: none;
+
+}
+
+.card h3
+{
+  font-size: 20px;
+  color: #ff5757;
+  font-family: "Barriecito", system-ui;
+}
+
+.card p{
+  font-size: 20px;
+  color: #ff5757;
+  font-family: "Open Sans", sans-serif;
+}
+
+.texto-oculto h3{
+  font-size: 20px;
+  color: white;
+  font-family: "Barriecito", system-ui;
+}
+
+.texto-oculto p{
+  font-size: 20px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+ margin-top: 100px;
+ height: 400px ;
+ background-image: linear-gradient(180deg, #09440c, #4b8670, white);
+ text-align: center;
+ border-top: 5px solid #ffeb1f;
+
+}
+
+.Roda-pé {
+  padding: 100px;
+}
+
+.Logo1 {
+  font-family: "Barrio", system-ui;
+  color: #ffeb1f;
+  font-size: 34px;
+}
